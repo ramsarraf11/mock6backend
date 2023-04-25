@@ -1,0 +1,37 @@
+##POST localhost:4500/api/register
+--<Register a new user>
+<It'll take name,email and password>
+
+
+##POST localhost:4500/api/login
+--<LoggedIn a existing user>
+<It'll take name and password>
+
+
+##GET localhost:4500/api/flights
+--<Get all the data about flights >
+
+
+##GET{id} localhost:4500/api/flights/:id
+--<Get the data about a flights with given id >
+
+
+##POST localhost:4500/api/flights
+--<Create a data about new flights >
+
+
+##UPDATE{id} localhost:4500/api/flights/:id
+--<Update details about flights with given id >
+
+
+##DELETE{id} localhost:4500/api/flights/:id
+--<Delete details about flights with given id >
+
+
+##POST localhost:4500/api/bookings
+--<Book a flight >
+
+
+##POST localhost:4500/api/api/dashboard
+--<Get all details about flights and user data >
+
